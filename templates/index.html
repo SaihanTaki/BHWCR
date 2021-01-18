@@ -1,0 +1,39 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/style8.css') }}"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="#default" id="logo">Bangla Alphabet Classifier</a>
+            <a
+                id="github"
+                href="https://github.com/SaihanTaki/Hotdog-Not-Hotdog-Classifier"
+                >Source Code</a
+            >
+        </div>
+
+        <!-- --------------------------------------------------------- -->
+
+        <div class="container">
+            <div class="input">
+                <div class="button" id="btn-clear">Clear</div>
+                <canvas id="canvas"> </canvas>
+                <div class="button" id="btn-predict">Predict</div>
+                <div class="loader"></div>
+                <h3 id="result">
+                    <span> </span>
+                </h3>
+            </div>
+        </div>
+
+        <!-- --------------------------------------------------------------------- -->
+
+        <script src="{{ url_for('static', filename='js/script12.js') }}"></script>
+    </body>
+</html>
