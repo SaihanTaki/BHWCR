@@ -8,13 +8,13 @@
         />
         <link
             rel="stylesheet"
-            href="{{ url_for('static', filename='css/style27.css') }}"
+            href="{{ url_for('static', filename='css/style37.css') }}"
         />
-        <title>Document</title>
+        <title>Bangla Character Recognizer</title>
     </head>
     <body>
         <div class="header">
-            <a href="#default" id="logo">Bangla Alphabet Classifier</a>
+            <a href="#default" id="logo">Bangla Character Recognizer</a>
             <a
                 id="github"
                 href="https://github.com/SaihanTaki/Bangla-Character-Recognition"
@@ -26,7 +26,7 @@
 
         <div class="container">
             <div class="input">
-                <div class="button" id="btn-clear">Clear</div>
+                <div class="button" id="btn-clear">Clear Board</div>
                 <canvas id="canvas"> </canvas>
                 <div class="button" id="btn-predict">Predict</div>
                 <div class="loader"></div>
@@ -35,12 +35,13 @@
                 </h3>
             </div>
             <div class="output">
+                <h3>Result</h3>
                 <div id="outCanvas"></div>
             </div>
         </div>
 
         <!-- --------------------------------------------------------------------- -->
 
-        <script src="{{ url_for('static', filename='js/script38.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/script39.js') }}"></script>
     </body>
 </html>
