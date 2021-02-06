@@ -2,6 +2,9 @@
 
 This is a web app that can recognize bangla handwritten characters. Recognition task is done by using a custom convolutional neural network model.
 
+<a href="https://bangla-character-recognizer.herokuapp.com/"> Click here to see live demo </a> <br>
+This web app may take upto a minute to load. Pease waite a little bit.
+
 # **Table of Contents**
 
 -   [Technologies](#Technologies)
