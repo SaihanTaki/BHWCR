@@ -24,6 +24,7 @@ def index():
 
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
+
     imgData = request.get_data(as_text=True)
     convertImage(imgData)
     image_file = 'output.png'
@@ -32,7 +33,6 @@ def predict():
 
 
 # Decoding an image from base64 into raw representation
-
 def convertImage(imgData):
     imgstr = re.search(r'base64,(.*)', imgData).group(1)
     base64_img = imgstr
