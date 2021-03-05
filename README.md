@@ -49,6 +49,7 @@ This web app may take upto a minute to load. Pease waite a little bit.
 
 ```
 $ git clone https://github.com/SaihanTaki/Bangla-Character-Recognition.git
+$ cd Bangla-Character-Recognition
 ```
 
 -   Create a virtual environment
