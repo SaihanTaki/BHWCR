@@ -8,3 +8,4 @@ Pillow==9.4.0
 tensorflow==2.8.0
 tensorflow-estimator==2.8.0
 protobuf==3.17.3
+Werkzeug==2.2.2
