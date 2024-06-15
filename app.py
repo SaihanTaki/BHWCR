@@ -14,7 +14,7 @@ app = Flask(__name__)
 Model_Path = "Models/FineTunedMobileNet.h5"
 print("Model is loading...!")
 model = load_model(Model_Path)
-print("Model is loaded.Check at http://127.0.0.1:5000/")
+print("Model is loaded.\nCheck out the application at http://0.0.0.0:5000/")
 
 
 @app.route('/')
@@ -60,4 +60,4 @@ def predict_char(image_file, model):
 
 if __name__ == '__main__':
 
-    app.run(debug=True)
+    app.run(debug=False)
