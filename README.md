@@ -19,13 +19,14 @@ This web app may take upto a minute to load. Pease waite a little bit.
 
 # **Technologies**
 
--   Tensorflow 2.3
--   Keras 2.4
--   Python 3.7
--   HTML 5
--   CSS 3
--   Javascript
+-   Tensorflow
+-   Keras
+-   Python
 -   Flask
+-   HTML
+-   CSS
+-   Javascript
+
 
 <br>
 
@@ -54,12 +55,24 @@ $ cd Bangla-Character-Recognition
 
 -   Create a virtual environment
 -   Activate the virtual environment
--   Run these command in your shell
+-   Install the dependency by running the following command
 
 ```
 $ pip install -r requirements.txt
-$ flask run
 ```
+-   Run the application using the following command
+```
+Flask run 
+```
+
+Or 
+
+```
+gunicorn --bind 0.0.0.0:5000 app:app
+```
+
+#### N.B. `Flask run` will start the application in development mode.
+
 
 <br>
 
