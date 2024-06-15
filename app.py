@@ -58,6 +58,6 @@ def predict_char(image_file, model):
     return result_char
 
 
-if __name__ == '__main__':
+# if __name__ == '__main__':
 
-    app.run(debug=False)
+#     app.run(debug=False)
